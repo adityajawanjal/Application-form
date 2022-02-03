@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Application for students</h1>
+    <h2>Enter the details:</h2>
+    <fieldset>
+        <legend>Personal information</legend>
+        <br>
+    <label for="name">Name :</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <br>
+    <label for="age">Age :</label><input type="number" name="age" id="age">
+    <br>
+    <p>Gender : Male <input type="radio" name="gender" id="male">Female <input type="radio" name="gender" id="female">
+    </p>
+    <label for="DOB">Birthdate :<input type="date" name="DOB" id="DOB"></label>
+    <p>
+        Email :<input type="email">
+    </p>
+    <p>
+        Caste :<select name="caste" id="caste">
+            <option value="">--select--</option>
+            <option value="obc">OBC</option>
+            <option value="ews">EWS</option>
+            <option value="sbc">SBC</option>
+            <option value="open">OPEN<option>
+        </select>
+    </p>
+    <br>
+    <button type="submit" name="button" id="submit">Log in</button>
+</fieldset>
+</body>
+
+</html>
